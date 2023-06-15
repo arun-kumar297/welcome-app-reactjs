@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.continer {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+h1 {
+  color: #f0bb03;
+  font-weight: bold;
+}
+p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+}
+button {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 8px;
+  width: 130px;
+  border-radius: 8px;
+  border-width: 0;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    color: #f0bb03;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
